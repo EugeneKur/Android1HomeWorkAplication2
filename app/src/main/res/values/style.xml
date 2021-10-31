@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#0B372F</item>
+        <item name="colorPrimaryVariant">#0B372F</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+    <style name="MyStyle">
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textColor">@color/ColorTextEditText</item>
+        <item name="android:layout_marginStart">@dimen/margin</item>
+        <item name="android:layout_marginEnd">@dimen/margin</item>
+        <item name="android:layout_marginTop">@dimen/margin</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MyButtonStyle">
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textColor">@color/colorTextButton</item>
+        <item name="android:layout_marginStart">@dimen/margin</item>
+        <item name="android:layout_marginEnd">@dimen/margin</item>
+        <item name="android:layout_marginTop">@dimen/margin</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+</resources>
