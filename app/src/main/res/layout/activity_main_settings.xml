@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/radioButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonCancel">
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/radioButtonMaterialLight"
+                android:layout_width="match_parent"
+                android:layout_height="50pt"
+                android:text="@string/lightSide"
+                />
+
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/radioButtonMaterialDark"
+                android:layout_width="match_parent"
+                android:layout_height="50pt"
+                android:text="@string/DarkSide" />
+
+        </RadioGroup>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+        <ImageView
+            android:src="@drawable/light"
+
+            android:layout_width="match_parent"
+            android:layout_height="50pt"
+            android:adjustViewBounds="true"
+            />
+
+        <ImageView
+            android:src="@drawable/dark"
+
+            android:layout_width="match_parent"
+            android:layout_height="50pt"
+            android:adjustViewBounds="true"
+            />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="EditText1"
+        android:background="#FFF000"
+        android:textColor="@color/purple_700"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:inputType="text"
+        tools:visibility="visible" />
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="EditText2"
+        android:background="#D4CFD8"
+        android:textColor="@color/purple_700"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:inputType="textPersonName"
+        tools:visibility="visible" />
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="EditText3"
+        android:background="#A2B9A4"
+        android:textColor="@color/purple_700"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:inputType="phone"
+        tools:visibility="visible" />
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="EditText4"
+        android:background="#FFF000"
+        android:textColor="@color/purple_700"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:inputType="number"
+        tools:visibility="visible" />
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="EditText5"
+        android:background="#A2B9A4"
+        android:textColor="@color/purple_700"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:inputType="textPassword"
+        tools:visibility="visible" />
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="EditText6"
+        android:background="#FFF000"
+        android:textColor="@color/purple_700"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:inputType="textEmailAddress"
+        tools:visibility="visible" />
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="EditText7"
+        android:background="#A2B9A4"
+        android:textColor="@color/purple_700"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:inputType="textFilter"
+        tools:visibility="visible" />
+
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9687A6" />
+
+
+</LinearLayout>

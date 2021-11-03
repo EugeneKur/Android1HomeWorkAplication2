@@ -1,3 +1,25 @@
 <resources>
+    <string name="material_light">Material light</string>
+    <string name="material_dark">Material dark</string>
     <string name="app_name">Android1 HomeWork Aplication2</string>
+    <string name="result">RESULT</string>
+    <string name="textButton_1">1</string>
+    <string name="textButton_2">2</string>
+    <string name="textButton_3">3</string>
+    <string name="textButtonPlus">+</string>
+    <string name="textButton_4">4</string>
+    <string name="textButton_5">5</string>
+    <string name="textButton_6">6</string>
+    <string name="textButtonMinus">-</string>
+    <string name="textButton_7">7</string>
+    <string name="textButton_8">8</string>
+    <string name="textButton_9">9</string>
+    <string name="textButtonMultiplication">×</string>
+    <string name="textButtonDot">.</string>
+    <string name="textButton_0">0</string>
+    <string name="textButtonResult">=</string>
+    <string name="textButton_Division">/</string>
+    <string name="textButton_Settings">Настройки</string>
+    <string name="lightSide">Светлая сторона</string>
+    <string name="DarkSide">Темная сторона</string>
 </resources>
