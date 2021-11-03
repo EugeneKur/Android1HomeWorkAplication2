@@ -4,7 +4,24 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#EFE3BD"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:theme="@style/Theme.Android1HomeWorkAplication2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A3C2C1"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_setting"
+            android:text="@string/textButton_Settings"
+            app:backgroundTint="@color/buttonColor"
+            app:cornerRadius="0pt"
+            style="@style/MyButtonStyle"/>
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"

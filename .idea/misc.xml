@@ -4,10 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/ewkur/Android1HomeWorkAplication2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22179487179487178" />
-        <entry key="..\:/Users/ewkur/Android1HomeWorkAplication2/app/src/main/res/layout/activity2_main.xml" value="0.264" />
+        <entry key="..\:/Users/ewkur/Android1HomeWorkAplication2/app/src/main/res/layout/activity2_main.xml" value="0.13333333333333333" />
         <entry key="..\:/Users/ewkur/Android1HomeWorkAplication2/app/src/main/res/layout/activity_Calculator.xml" value="0.2" />
-        <entry key="..\:/Users/ewkur/Android1HomeWorkAplication2/app/src/main/res/layout/activity_calculator_main.xml" value="0.264" />
+        <entry key="..\:/Users/ewkur/Android1HomeWorkAplication2/app/src/main/res/layout/activity_calculator_main.xml" value="0.2" />
         <entry key="..\:/Users/ewkur/Android1HomeWorkAplication2/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ewkur/Android1HomeWorkAplication2/app/src/main/res/layout/activity_main_settings.xml" value="0.1688888888888889" />
       </map>
     </option>
   </component>
